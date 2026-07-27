@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="智能感知与自主系统课题组 - 清华大学计算机科学与技术系">
+    <title>智能感知与自主系统课题组 | 清华大学</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 顶部信息栏 -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <span>清华大学 计算机科学与技术系</span>
+            <span class="top-bar-right">
+                <a href="mailto:liping@tsinghua.edu.cn">联系我们</a>
+                <span class="sep">|</span>
+                <a href="#" lang="en">English</a>
+            </span>
+        </div>
+    </div>
+
+    <!-- 页头 -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <div class="logo-mark">
+                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none">
+                        <circle cx="21" cy="21" r="20" stroke="#7B2D3B" stroke-width="1.5"/>
+                        <text x="21" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#7B2D3B" font-family="Georgia, serif">清</text>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>智能感知与自主系统课题组</h1>
+                    <p>Intelligent Perception & Autonomous Systems Lab</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <a href="#home" class="active">首页</a>
+                <a href="#research">研究方向</a>
+                <a href="#people">团队成员</a>
+                <a href="#publications">发表论文</a>
+                <a href="#projects">科研项目</a>
+                <a href="#news">组内动态</a>
+                <a href="#contact">联系我们</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首页横幅 -->
+    <section class="banner" id="home">
+        <div class="banner-inner">
+            <div class="banner-text">
+                <p class="banner-eyebrow">Lab of Intelligent Perception & Autonomous Systems</p>
+                <h2>面向复杂环境的<br>智能感知与决策研究</h2>
+                <p class="banner-desc">
+                    本课题组依托清华大学计算机科学与技术系，长期从事计算机视觉、多模态感知、自主决策与机器人系统等方向的研究。课题组秉持"求实创新"的科研理念，在顶级国际期刊和会议上发表论文百余篇，承担多项国家自然科学基金重点项目。
+                </p>
+                <div class="banner-actions">
+                    <a href="#research" class="btn-text">了解研究方向 →</a>
+                    <a href="#publications" class="btn-text">查看发表论文 →</a>
+                </div>
+            </div>
+            <div class="banner-side">
+                <div class="banner-card">
+                    <div class="card-label">课题组负责人</div>
+                    <div class="card-name">李 平 教授</div>
+                    <div class="card-title">博士生导师 / 国家杰青</div>
+                    <div class="card-divider"></div>
+                    <p>长期从事计算机视觉与自主系统研究，IEEE Fellow，CCF杰出会员。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究方向 -->
+    <section class="section" id="research">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">01</span>
+                <h2>研究方向</h2>
+            </div>
+            <div class="research-grid">
+                <div class="research-item">
+                    <div class="research-icon">📷</div>
+                    <h3>计算机视觉</h3>
+                    <p>面向开放环境的物体检测、语义分割、三维重建与场景理解，关注小样本、长尾分布等实际挑战。</p>
+                    <ul class="research-tags">
+                        <li>目标检测</li>
+                        <li>语义分割</li>
+                        <li>3D重建</li>
+                    </ul>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon">🎧</div>
+                    <h3>多模态感知</h3>
+                    <p>融合视觉、语言、雷达等多源信息，实现跨模态对齐与联合推理，提升系统在复杂场景下的鲁棒性。</p>
+                    <ul class="research-tags">
+                        <li>视觉-语言模型</li>
+                        <li>跨模态融合</li>
+                        <li>多传感器标定</li>
+                    </ul>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon">🤖</div>
+                    <h3>自主决策与控制</h3>
+                    <p>研究机器人在动态环境中的实时规划与决策算法，涵盖强化学习、运动规划与多机协同。</p>
+                    <ul class="research-tags">
+                        <li>强化学习</li>
+                        <li>运动规划</li>
+                        <li>多机协同</li>
+                    </ul>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon">🧠</div>
+                    <h3>大模型与具身智能</h3>
+                    <p>探索大模型在具身智能体中的应用，研究视觉-语言-动作模型的预训练与微调方法。</p>
+                    <ul class="research-tags">
+                        <li>VLA模型</li>
+                        <li>世界模型</li>
+                        <li>Sim-to-Real</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 团队成员 -->
+    <section class="section section-gray" id="people">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">02</span>
+                <h2>团队成员</h2>
+            </div>
+            
+            <h3 class="sub-heading">PI / 指导教师</h3>
+            <div class="people-grid pi-grid">
+                <div class="person-card pi-card">
+                    <div class="person-photo" style="background: #e8e0d8 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2218%22 fill=%22%23c9b8a8%22/><path d=%22M20 90 Q50 55 80 90%22 fill=%22%23c9b8a8%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">李 平</div>
+                        <div class="person-role">教授 / 博导</div>
+                        <p>课题组负责人。IEEE Fellow，国家杰出青年科学基金获得者。研究方向：计算机视觉、自主系统。</p>
+                        <a href="mailto:liping@tsinghua.edu.cn" class="person-email">liping@tsinghua.edu.cn</a>
+                    </div>
+                </div>
+                <div class="person-card pi-card">
+                    <div class="person-photo" style="background: #ddd5cc url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2218%22 fill=%22%23b8a898%22/><path d=%22M20 90 Q50 55 80 90%22 fill=%22%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">王 建华</div>
+                        <div class="person-role">副教授 / 博导</div>
+                        <p>研究方向：多模态学习、视觉-语言模型。CCF计算机视觉专委会委员。</p>
+                        <a href="mailto:wjh@tsinghua.edu.cn" class="person-email">wjh@tsinghua.edu.cn</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">博士研究生</h3>
+            <div class="people-grid">
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #d5dde0 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23a8b8c0%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23a8b8c0%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">张 明远</div>
+                        <div class="person-role">博士生 · 2021级</div>
+                        <p>研究方向：开放世界物体检测、视觉基础模型。</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #e0ddd5 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23b8b0a0%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23b8b0a0%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">陈 思远</div>
+                        <div class="person-role">博士生 · 2022级</div>
+                        <p>研究方向：具身智能、视觉-语言-动作模型。</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #d8dde0 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23a8b0b8%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23a8b0b8%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">刘 畅</div>
+                        <div class="person-role">博士生 · 2022级</div>
+                        <p>研究方向：多机器人协同、分布式决策。</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #ddd5d0 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23b0a098%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23b0a098%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">赵 文博</div>
+                        <div class="person-role">博士生 · 2023级</div>
+                        <p>研究方向：三维场景理解、神经辐射场。</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #d5d8dd url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23a0a8b0%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23a0a8b0%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">孙 雅琪</div>
+                        <div class="person-role">博士生 · 2023级</div>
+                        <p>研究方向：多模态大模型、指令跟随。</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-photo small" style="background: #e0dcd5 url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2240%22 r=%2216%22 fill=%22%23b8b0a0%22/><path d=%22M22 90 Q50 58 78 90%22 fill=%22%23b8b0a0%22/></svg>') center/cover;"></div>
+                    <div class="person-info">
+                        <div class="person-name">周 浩然</div>
+                        <div class="person-role">博士生 · 2024级</div>
+                        <p>研究方向：世界模型、预测与规划。</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">硕士研究生</h3>
+            <div class="people-grid master-grid">
+                <div class="person-card master-card">
+                    <div class="person-name">杨 帆</div>
+                    <div class="person-role">硕士生 · 2023级</div>
+                    <p>实时目标检测加速</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">黄 思涵</div>
+                    <div class="person-role">硕士生 · 2023级</div>
+                    <p>视频理解</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">吴 桐</div>
+                    <div class="person-role">硕士生 · 2024级</div>
+                    <p>SLAM与建图</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">林 佳怡</div>
+                    <div class="person-role">硕士生 · 2024级</div>
+                    <p>点云处理</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">何 俊杰</div>
+                    <div class="person-role">硕士生 · 2024级</div>
+                    <p>模仿学习</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">高 欣然</div>
+                    <div class="person-role">硕士生 · 2025级</div>
+                    <p>扩散策略</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">马 天宇</div>
+                    <div class="person-role">硕士生 · 2025级</div>
+                    <p>传感器融合</p>
+                </div>
+                <div class="person-card master-card">
+                    <div class="person-name">许 诺</div>
+                    <div class="person-role">硕士生 · 2025级</div>
+                    <p>边缘部署</p>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">本科实习生</h3>
+            <div class="intern-list">
+                <span>冯 雨萱</span>
+                <span>邓 志远</span>
+                <span>韩 雪</span>
+                <span>曹 文轩</span>
+                <span>彭 浩然</span>
+                <span>曾 梦琪</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 发表论文 -->
+    <section class="section" id="publications">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">03</span>
+                <h2>发表论文</h2>
+            </div>
+            <p class="section-note">以下为部分代表性论文，完整列表请参考 <a href="#">Google Scholar</a> 或 <a href="#">DBLP</a>。</p>
+            
+            <div class="pub-year-group">
+                <div class="pub-year">2026</div>
+                <div class="pub-list">
+                    <div class="pub-item">
+                        <span class="pub-venue">CVPR 2026</span>
+                        <p class="pub-title">Open-World 3D Detection via Uncertainty-Aware Prototype Learning</p>
+                        <p class="pub-authors">Zhang M., Chen S., Li P.</p>
+                        <p class="pub-venue-text">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026. <span class="pub-tag">Oral (3.7%)</span></p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">TPAMI 2026</span>
+                        <p class="pub-title">Hierarchical Multimodal Alignment for Embodied Visual Navigation</p>
+                        <p class="pub-authors">Wang J., Liu C., Zhao W., Li P.</p>
+                        <p class="pub-venue-text">IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 3, pp. 1024-1038, 2026.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pub-year-group">
+                <div class="pub-year">2025</div>
+                <div class="pub-list">
+                    <div class="pub-item">
+                        <span class="pub-venue">NeurIPS 2025</span>
+                        <p class="pub-title">VLA-Bench: A Comprehensive Benchmark for Vision-Language-Action Models</p>
+                        <p class="pub-authors">Chen S., Sun Y., Zhang M., Li P.</p>
+                        <p class="pub-venue-text">Advances in Neural Information Processing Systems 38, 2025.</p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">ICRA 2025</span>
+                        <p class="pub-title">Distributed Multi-Robot Trajectory Optimization with Communication Constraints</p>
+                        <p class="pub-authors">Liu C., Wang J., Li P.</p>
+                        <p class="pub-venue-text">IEEE International Conference on Robotics and Automation, 2025.</p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">ECCV 2025</span>
+                        <p class="pub-title">NeRF-SLAM: Tightly Coupled Neural Radiance Fields and Visual SLAM</p>
+                        <p class="pub-authors">Zhao W., Zhang M., Li P.</p>
+                        <p class="pub-venue-text">European Conference on Computer Vision, 2025.</p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">IJCV 2025</span>
+                        <p class="pub-title">Long-Tailed Visual Recognition Revisited: A Margin Perspective</p>
+                        <p class="pub-authors">Zhang M., Wang J., Li P.</p>
+                        <p class="pub-venue-text">International Journal of Computer Vision, vol. 133, pp. 2105-2120, 2025.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pub-year-group">
+                <div class="pub-year">2024</div>
+                <div class="pub-list">
+                    <div class="pub-item">
+                        <span class="pub-venue">CVPR 2024</span>
+                        <p class="pub-title">Prompt-Guided Few-Shot 3D Object Detection in Point Clouds</p>
+                        <p class="pub-authors">Zhao W., Chen S., Li P.</p>
+                        <p class="pub-venue-text">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024.</p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">RSS 2024</span>
+                        <p class="pub-title">Learning Agile Locomotion with World Models on Real Robots</p>
+                        <p class="pub-authors">Zhou H., Liu C., Li P.</p>
+                        <p class="pub-venue-text">Robotics: Science and Systems XX, 2024. <span class="pub-tag">Best Paper Finalist</span></p>
+                    </div>
+                    <div class="pub-item">
+                        <span class="pub-venue">TRO 2024</span>
+                        <p class="pub-title">Online Adaptation for Visual-Inertial Odometry in Dynamic Environments</p>
+                        <p class="pub-authors">Wang J., Liu C., Li P.</p>
+                        <p class="pub-venue-text">IEEE Transactions on Robotics, vol. 40, pp. 512-528, 2024.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pub-more">
+                <a href="#" class="btn-outline-small">查看更多论文 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 科研项目 -->
+    <section class="section section-gray" id="projects">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">04</span>
+                <h2>科研项目</h2>
+            </div>
+            <div class="proj-grid">
+                <div class="proj-card">
+                    <div class="proj-period">2024–2028</div>
+                    <h3>面向开放环境的自主感知与决策关键技术研究</h3>
+                    <p class="proj-fund">国家自然科学基金重点项目（No. 62332002）</p>
+                    <p>负责人：李平（主持）</p>
+                    <p>研究复杂动态环境下机器人自主感知、理解与决策的基础理论与关键技术，涵盖多模态融合、开放集识别、实时规划等核心问题。</p>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-period">2023–2026</div>
+                    <h3>具身智能大模型的理论与方法</h3>
+                    <p class="proj-fund">科技部科技创新2030—"新一代人工智能"重大项目</p>
+                    <p>课题负责人：李平</p>
+                    <p>探索大模型赋能机器人具身智能的新范式，研究视觉-语言-动作联合建模、世界模型构建与 sim-to-real 迁移。</p>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-period">2022–2025</div>
+                    <h3>多机器人协同感知与分布式决策</h3>
+                    <p class="proj-fund">国家自然科学基金面上项目（No. 62176134）</p>
+                    <p>负责人：王建华（主持）</p>
+                    <p>研究多机器人系统中高效协同感知与分布式决策的理论框架，解决通信受限条件下的协作问题。</p>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-period">2021–2024</div>
+                    <h3>复杂场景三维重建与语义理解</h3>
+                    <p class="proj-fund">北京市自然科学基金重点项目</p>
+                    <p>负责人：李平（主持）</p>
+                    <p>面向城市级大规模场景，研究高效的三维重建算法与语义理解方法，支持高精度数字孪生应用。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 组内动态 -->
+    <section class="section" id="news">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">05</span>
+                <h2>组内动态</h2>
+            </div>
+            <div class="news-list">
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">15</span>
+                        <span class="news-month">2026年7月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>张明远同学的论文被 CVPR 2026 接收为 Oral 报告</h4>
+                        <p>张明远同学的第一作者论文 "Open-World 3D Detection via Uncertainty-Aware Prototype Learning" 被 CVPR 2026 接收，并获选 Oral 报告（录用率 3.7%）。祝贺！</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">02</span>
+                        <span class="news-month">2026年6月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>课题组参加 ICRA 2026 国际会议</h4>
+                        <p>李平教授率队赴亚特兰大参加 ICRA 2026，刘畅同学就多机器人协同规划工作做了口头报告，与来自全球的学者进行了深入交流。</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">20</span>
+                        <span class="news-month">2026年5月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>陈思远同学获国家奖学金</h4>
+                        <p>陈思远同学因在具身智能方向的研究成果突出，荣获2025–2026学年博士研究生国家奖学金。这是课题组连续第三年有同学获此荣誉。</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">10</span>
+                        <span class="news-month">2026年4月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>课题组开源 VLA-Bench 基准数据集</h4>
+                        <p>课题组正式开源 VLA-Bench —— 一个面向视觉-语言-动作模型的综合评测基准，涵盖 12 个真实机器人任务场景。代码与数据已在 GitHub 发布。</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">28</span>
+                        <span class="news-month">2026年3月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>课题组接待斯坦福大学访学团</h4>
+                        <p>斯坦福大学计算机系教授带队来访，与课题组就视觉基础模型与具身智能方向开展了为期一天的学术研讨，并参观了实验室机器人平台。</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">
+                        <span class="news-day">05</span>
+                        <span class="news-month">2026年1月</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>新年聚会暨毕业生送别</h4>
+                        <p>课题组举办年度聚会，庆祝新年的同时，为即将毕业的师兄师姐送上祝福。今年课题组有 2 位博士和 3 位硕士顺利毕业。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 招生信息 -->
+    <section class="section section-maroon">
+        <div class="section-inner">
+            <div class="section-head light">
+                <span class="section-num light">06</span>
+                <h2>招生与招聘</h2>
+            </div>
+            <div class="recruit-grid">
+                <div class="recruit-card">
+                    <h3>📌 博士后招聘</h3>
+                    <p>常年招收博士后，研究方向包括计算机视觉、机器人学、机器学习。要求近三年获得博士学位，在相关领域顶级会议/期刊发表过论文。</p>
+                    <p class="recruit-contact">联系邮箱：liping@tsinghua.edu.cn</p>
+                    <p class="recruit-note">提供具有竞争力的薪酬和科研启动经费，支持申报国家博士后基金。</p>
+                </div>
+                <div class="recruit-card">
+                    <h3>📌 研究生招生</h3>
+                    <p>每年招收博士研究生 2–3 名，硕士研究生 3–4 名。欢迎具有计算机、自动化、数学等相关背景的同学申请。</p>
+                    <p class="recruit-contact">申请方式：通过清华大学研究生招生系统报名</p>
+                    <p class="recruit-note">课题组与多家企业有合作关系，优秀毕业生可推荐至国内外顶尖高校或企业任职。</p>
+                </div>
+                <div class="recruit-card">
+                    <h3>📌 本科实习生</h3>
+                    <p>面向清华大学在校本科生，提供科研训练机会。每周投入时间不少于 20 小时，参与周期至少一学期。</p>
+                    <p class="recruit-contact">申请方式：发送简历至 liping@tsinghua.edu.cn</p>
+                    <p class="recruit-note">表现优秀者可获得推荐信，并优先录取为本组研究生。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section class="section" id="contact">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-num">07</span>
+                <h2>联系我们</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-block">
+                    <h4>📍 地址</h4>
+                    <p>北京市海淀区清华园1号<br>清华大学 信息技术大楼 FIT 4-603<br>邮政编码：100084</p>
+                </div>
+                <div class="contact-block">
+                    <h4>📧 邮箱</h4>
+                    <p>课题组邮箱：ipas-lab@tsinghua.edu.cn<br>PI 邮箱：liping@tsinghua.edu.cn<br>行政邮箱：ipas-admin@tsinghua.edu.cn</p>
+                </div>
+                <div class="contact-block">
+                    <h4>📞 电话</h4>
+                    <p>办公室：+86-10-6278-XXXX<br>传真：+86-10-6278-XXXX</p>
+                </div>
+                <div class="contact-block">
+                    <h4>🔗 相关链接</h4>
+                    <p>
+                        <a href="#">清华大学计算机系</a><br>
+                        <a href="#">清华大学研究生院</a><br>
+                        <a href="#">课题组 GitHub</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 模拟地图占位 -->
+            <div class="map-placeholder">
+                <div class="map-text">
+                    <p style="font-size: 14px; color: #999;">📍 地图位置示意 — 清华大学信息技术大楼（FIT楼）</p>
+                    <p style="font-size: 12px; color: #bbb; margin-top: 8px;">实际部署时可替换为百度地图 / 高德地图嵌入代码</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h5>智能感知与自主系统课题组</h5>
+                    <p>Intelligent Perception & Autonomous Systems Lab<br>清华大学 计算机科学与技术系</p>
+                </div>
+                <div class="footer-col">
+                    <h5>快速导航</h5>
+                    <a href="#research">研究方向</a>
+                    <a href="#people">团队成员</a>
+                    <a href="#publications">发表论文</a>
+                    <a href="#projects">科研项目</a>
+                </div>
+                <div class="footer-col">
+                    <h5>资源链接</h5>
+                    <a href="#">GitHub 主页</a>
+                    <a href="#">数据集下载</a>
+                    <a href="#">开源代码</a>
+                    <a href="#">实验室Wiki</a>
+                </div>
+                <div class="footer-col">
+                    <h5>联系信息</h5>
+                    <p>ipas-lab@tsinghua.edu.cn<br>+86-10-6278-XXXX<br>清华园1号 FIT 4-603</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2021–2026 清华大学 智能感知与自主系统课题组. All rights reserved.</p>
+                <p class="footer-credit">Powered by IPAS Lab · 最后更新：2026年7月</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
